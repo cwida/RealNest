@@ -29,3 +29,18 @@ The dataset contains a directory for each table with the following files:
 The schema might contain a `JSON` type, which may happen for empty JSON objects in the data (`{}`) or when DuckDB's
 schema inference detects incompatible types. The columns of this type can be ignored since they are not typical for
 structured data, or they can be handled as VARCHAR columns, where the value is the JSON string.
+
+## License
+
+The data has been downloaded from various public sources and converted to a common format. By using the **RealNest**
+dataset, you agree to the terms of use of the original data sources. The dataset is safe to use for research purposes
+only. If you are unsure about the terms, please refer to the licenses of the original data sources. The sources are:
+
+- Open Data on AWS entries listed [here](scripts/parquet_metadata.json)
+- [CERN Open Data](https://opendata.cern.ch/record/6021)
+- [Amazon Berkeley Objects Listings](https://amazon-berkeley-objects.s3.us-east-1.amazonaws.com/index.html)
+- [GitHub Archive](https://www.gharchive.org/)
+- [Twitter Stream Archive](https://archive.org/details/twitterstream)
+- [CORD-19](https://allenai.org/data/cord-19)
+
+In addition, the dataset is licensed under the [MIT License](LICENSE).
