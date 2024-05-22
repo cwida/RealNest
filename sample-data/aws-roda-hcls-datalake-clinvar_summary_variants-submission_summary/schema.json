@@ -1,0 +1,1 @@
+{"columns": [{"name": "col0", "type": "struct", "children": [{"name": "long", "type": "bigint"}, {"name": "string", "type": "varchar"}]}]}

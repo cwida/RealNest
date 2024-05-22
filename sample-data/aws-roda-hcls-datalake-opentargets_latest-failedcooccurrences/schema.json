@@ -1,0 +1,1 @@
+{"columns": [{"name": "organisms", "type": "list", "children": [{"name": "child", "type": "varchar"}]}, {"name": "matches", "type": "list", "children": [{"name": "child", "type": "struct", "children": [{"name": "endInSentence", "type": "bigint"}, {"name": "label", "type": "varchar"}, {"name": "startInSentence", "type": "bigint"}, {"name": "type", "type": "varchar"}]}]}]}

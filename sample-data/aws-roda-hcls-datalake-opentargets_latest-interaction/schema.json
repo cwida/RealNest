@@ -1,0 +1,1 @@
+{"columns": [{"name": "speciesA", "type": "struct", "children": [{"name": "mnemonic", "type": "varchar"}, {"name": "scientific_name", "type": "varchar"}, {"name": "taxon_id", "type": "bigint"}]}, {"name": "speciesB", "type": "struct", "children": [{"name": "mnemonic", "type": "varchar"}, {"name": "scientific_name", "type": "varchar"}, {"name": "taxon_id", "type": "bigint"}]}]}

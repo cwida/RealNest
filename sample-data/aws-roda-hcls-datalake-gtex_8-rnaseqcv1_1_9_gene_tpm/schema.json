@@ -1,0 +1,1 @@
+{"columns": [{"name": "gtex-14bim-2226-sm-5si8y", "type": "struct", "children": [{"name": "long", "type": "bigint"}, {"name": "string", "type": "varchar"}]}, {"name": "gtex-zve2-0426-sm-59hj7", "type": "struct", "children": [{"name": "long", "type": "bigint"}, {"name": "string", "type": "varchar"}]}]}

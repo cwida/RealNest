@@ -1,0 +1,1 @@
+{"columns": [{"name": "topics", "type": "list", "children": [{"name": "child", "type": "varchar"}]}]}

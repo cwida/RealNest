@@ -1,0 +1,71 @@
+{
+  "hep-adl-ethz": {
+    "s3_prefix": "hep-parquet/native/Run2012B_SingleMu-65536000.parquet/",
+    "tables": [
+      {
+        "url_regex": "s3://hep-adl-ethz/hep-parquet/native/(Run2012B_SingleMu)-65536000.parquet/[^/]*\\.snappy\\.parquet",
+        "table_key_format": "{0}"
+      }
+    ]
+  },
+  "overturemaps-us-west-2": {
+    "s3_prefix": "release/2024-04-16-beta.0/",
+    "tables": [
+      {
+        "url_regex": "s3://overturemaps-us-west-2/release/2024-04-16-beta\\.0/theme=([^/]*)/type=[^/]*/[^/]*\\.zstd\\.parquet",
+        "table_key_format": "{0}"
+      }
+    ]
+  },
+  "daylight-openstreetmap": {
+    "s3_prefix": "parquet/",
+    "tables": [
+      {
+        "url_regex": "s3://daylight-openstreetmap/parquet/([^/]*)/release=v1\\.45/type=[^/]*/[^/]*",
+        "format": "parquet",
+        "table_key_format": "{0}"
+      }
+    ]
+  },
+  "aws-public-blockchain": {
+    "s3_prefix": "v1.0/",
+    "tables": [
+      {
+        "url_regex": "s3://aws-public-blockchain/v1\\.0/(btc)/(transactions)/date=[^/]*/part-[^/]*\\.snappy\\.parquet",
+        "table_key_format": "{0}-{1}"
+      },
+      {
+        "url_regex": "s3://aws-public-blockchain/v1\\.0/(eth)/(logs)/date=[^/]*/[^/]*\\.snappy\\.parquet",
+        "table_key_format": "{0}-{1}"
+      }
+    ]
+  },
+  "aws-roda-hcls-datalake": {
+    "tables": [
+      {
+        "url_regex": "s3://aws-roda-hcls-datalake/(clinvar_summary_variants)/([^/]*)/[^/]*\\.snappy\\.parquet",
+        "table_key_format": "{0}-{1}"
+      },
+      {
+        "url_regex": "s3://aws-roda-hcls-datalake/(opentargets_latest)/([^/]*)/[^/]*snappy\\.parquet",
+        "table_key_format": "{0}-{1}"
+      },
+      {
+        "url_regex": "s3://aws-roda-hcls-datalake/(thousandgenomes_dragen)/(var_partby_samples)/[^/]*/[^/]*\\.snappy\\.parquet",
+        "table_key_format": "{0}-{1}"
+      },
+      {
+        "url_regex": "s3://aws-roda-hcls-datalake/(gnomad)/(chrm)/[^/]*snappy\\.parquet",
+        "table_key_format": "{0}-{1}"
+      },
+      {
+        "url_regex": "s3://aws-roda-hcls-datalake/(gnomad)/(sites)/partition_0=[^/]*/[^/]*snappy\\.parquet",
+        "table_key_format": "{0}-{1}"
+      },
+      {
+        "url_regex": "s3://aws-roda-hcls-datalake/(gtex_8)/([^/]*)/[^/]*\\.snappy\\.parquet",
+        "table_key_format": "{0}-{1}"
+      }
+    ]
+  }
+}

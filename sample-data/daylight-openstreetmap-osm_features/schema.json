@@ -1,0 +1,1 @@
+{"columns": [{"name": "tags", "type": "map", "children": [{"name": "key", "type": "varchar"}, {"name": "value", "type": "varchar"}]}]}

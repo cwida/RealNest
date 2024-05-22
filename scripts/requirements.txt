@@ -1,0 +1,5 @@
+# If it is not yet released, it requires a custom build from duckdb source. See README.md for more details.
+# duckdb~=1.1.0
+boto3~=1.34.95
+botocore~=1.34.95
+numpy~=1.26.4
