@@ -17,7 +17,7 @@ the two statically downloadable  datasets contains only a small part of each of 
 
 Please refer to the [README](scripts/README.md) in the [scripts](scripts) directory for more details.
 
-All materials in the repository, except the files under the sample-data/ folder are released under the **CC-NC-SA license** 
+All materials in this github repository, except the files under the sample-data/ folder are released under the **CC-NC-SA license** 
 (https://creativecommons.org/licenses/by-nc-sa/4.0/), hence this repository is open-source, requires attribution to this page 
 (which includes the Attribution section below) and  does not allow commercial exploitation.
 
