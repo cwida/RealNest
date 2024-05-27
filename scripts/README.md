@@ -49,3 +49,7 @@ Run the [download.py](download.py) script to download the RealNest dataset:
 ```bash
 python3 download.py
 ```
+
+## License
+
+The script is released under the [MIT License](LICENSE).
