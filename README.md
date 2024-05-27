@@ -1,17 +1,28 @@
 # RealNest - Nested Data from Real-World Datasets
 
-This repository contains the details of the **RealNest** dataset, a collection of nested data from real-world datasets.
-The
-dataset is designed to help benchmark and evaluate systems supporting nested data types.
+This repository contains the details of the **RealNest** dataset, a collection of nested data derived from real-world datasets.
+The dataset is designed to help computer science researchers benchmark and evaluate data systems and data formats supporting 
+nested data types.
 
-Since some data sources are updated frequently with the most recent data available, the **RealNest** dataset is provided
-as a dynamic dataset that can be downloaded via a download script. Please refer to the [README](scripts/README.md) in
-the [scripts](scripts) directory for more details.
-
-**RealNest** is also provided as a static dataset downloaded in mid-May 2024 for convenience. The static version of the
-dataset comes in two sizes: 64 * 1024 and 10 * 64 * 1024 rows, and will soon be available for download.
+**RealNest** is provided as a static dataset downloaded in .json.gz format. 
+It comes in two sizes: 64 * 1024 and 10 * 64 * 1024 rows, and will soon be available for download.
 The [sample-data](sample-data) directory contains a small sample of the dataset (the first 1024 rows of each table) as a
 preview.
+
+Because we provide scripts that download the original datasets and process these a common format, it is also possible to 
+re-create the dataset from newer versions of the underlying data and also enlarge it, since even the larger of the two 
+statically downloadable datasets, contains only a part of each of the original data sources.
+
+Please refer to the [README](scripts/README.md) in the [scripts](scripts) directory for more details.
+The scripts are released under the [MIT License](LICENSE).
+
+The static datafiles are released under the CC-NC-SA license https://creativecommons.org/licenses/by-nc-sa/4.0/
+hence the data is open-source, attribution to this page (including the Attribution section below) and does not
+allow commercial exploitation.
+
+If you are the owner of an original dataset, and object to the inclusion of your data in the **RealNest** static datasets, 
+please contact Peter Boncz (boncz@cwi.nl) and we will take action. Please note that below we make an attempt to 
+properly attribute the individual datasets as required by their various open-source licenses and terms of usage.
 
 ## Dataset Structure
 
@@ -30,11 +41,12 @@ The schema might contain a `JSON` type, which may happen for empty JSON objects 
 schema inference detects incompatible types. The columns of this type can be ignored since they are not typical for
 structured data, or they can be handled as VARCHAR columns, where the value is the JSON string.
 
-## License
+## Attribution
 
-The data has been downloaded from various public sources and converted to a common format. By using the **RealNest**
-dataset, you agree to the terms of use of the original data sources. The dataset is safe to use for research purposes
-only. If you are unsure about the terms, please refer to the licenses of the original data sources. The sources are:
+The data has been downloaded from various public sources and converted to a common format. We note that the real-world
+datasets from which **RealNest** is derived are released under varying open-source licenses and terms of usage.
+
+The sources of the original datasets are:
 
 - Open Data on AWS entries listed [here](scripts/parquet_metadata.json)
     - [Daylight Map Distribution of OpenStreetMap](https://registry.opendata.aws/daylight-osm/) ([Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/1-0/))
@@ -60,4 +72,4 @@ only. If you are unsure about the terms, please refer to the licenses of the ori
       B. Stilson, A. D. Wade, K. Wang, C. Wilhelm, B. Xie, D. A. Raymond, D. S. Weld,
       O. Etzioni, and S. Kohlmeier, "Cord-19: The covid-19 open research dataset," ArXiv, 2020.
 
-In addition, the dataset is licensed under the [MIT License](LICENSE).
+
