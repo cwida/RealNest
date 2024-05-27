@@ -1,10 +1,9 @@
 # RealNest Sample
 
-## Attribution
-
-The data in this repository is only provided for convenience. It can be re-generated from the original sources using the
-scripts in the [scripts](../scripts) directory. By using the data in this repository, you agree to the terms of use of
-the original data sources. The data source for each table is given below:
+The data in this repository is only provided for convenience and to facilitate standardized comparisons. It can be
+re-generated from the original sources using the scripts in the [scripts](../scripts) directory. By using the data in
+this repository, you agree to the terms of use of the original data sources. The data source for each table is given
+below:
 
 | #  | Table / Folder Name                                                                                                                            | Data Source                                      |
 |----|------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
