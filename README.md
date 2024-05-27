@@ -9,7 +9,7 @@ as a dynamic dataset that can be downloaded via a download script. Please refer 
 the [scripts](scripts) directory for more details.
 
 **RealNest** is also provided as a static dataset downloaded in mid-May 2024 for convenience. The static version of the
-dataset comes in two sizes: $64 * 1024$ and $10 * 64 * 1024$ rows, and will soon be available for download.
+dataset comes in two sizes: 64 * 1024 and 10 * 64 * 1024 rows, and will soon be available for download.
 The [sample-data](sample-data) directory contains a small sample of the dataset (the first 1024 rows of each table) as a
 preview.
 
@@ -37,10 +37,27 @@ dataset, you agree to the terms of use of the original data sources. The dataset
 only. If you are unsure about the terms, please refer to the licenses of the original data sources. The sources are:
 
 - Open Data on AWS entries listed [here](scripts/parquet_metadata.json)
+    - [Daylight Map Distribution of OpenStreetMap](https://registry.opendata.aws/daylight-osm/) ([Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/1-0/))
+    - [Overture Maps Foundation Open Map Data](https://registry.opendata.aws/overture/)
+        - Overture data is licensed under the Community Database License Agreement Permissive v2 (CDLA) unless derived
+          from a source that requires publishing under a different license, such as data derived from OpenStreetMap,
+          that constitutes a 'Derivative Database' (as defined under ODbL v1.0), which will be licensed under ODbL v1.0.
+    - [AWS Public Blockchain Data](https://registry.opendata.aws/aws-public-blockchain/) ([LICENSE](https://github.com/aws-solutions-library-samples/guidance-for-digital-assets-on-aws/blob/main/LICENSE))
+    - [Data Lake as Code](https://github.com/aws-samples/data-lake-as-code) ([ATTRIBUTIONS](https://github.com/aws-samples/data-lake-as-code/blob/roda/docs/roda_attributions.txt))
 - [CERN Open Data](https://opendata.cern.ch/record/6021)
-- [Amazon Berkeley Objects Listings](https://amazon-berkeley-objects.s3.us-east-1.amazonaws.com/index.html)
+    - CMS collaboration (2017). SingleMu primary dataset in AOD format from Run of 2012 (
+      /SingleMu/Run2012B-22Jan2013-v1/AOD). CERN Open Data Portal.
+      DOI:[10.7483/OPENDATA.CMS.IYVQ.1J0W](http://doi.org/10.7483/OPENDATA.CMS.IYVQ.1J0W)
+- [Amazon Berkeley Objects Listings](https://amazon-berkeley-objects.s3.us-east-1.amazonaws.com/index.html) ([LICENSE](https://amazon-berkeley-objects.s3.us-east-1.amazonaws.com/LICENSE-CC-BY-4.0.txt))
+    - J. Collins, S. Goel, K. Deng, A. Luthra, L. Xu, E. Gundogdu, X. Zhang, T. F. Yago
+      Vicente, T. Dideriksen, H. Arora, M. Guillaumin, and J. Malik, "Abo: Dataset and
+      benchmarks for real-world 3d object understanding," CVPR, 2022.
 - [GitHub Archive](https://www.gharchive.org/)
 - [Twitter Stream Archive](https://archive.org/details/twitterstream)
-- [CORD-19](https://allenai.org/data/cord-19)
+- [CORD-19](https://allenai.org/data/cord-19) ([LICENSE](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-03-13/COVID.DATA.LIC.AGMT.pdf))
+    - L. L. Wang, K. Lo, Y. Chandrasekhar, R. Reas, J. Yang, D. Eide, K. Funk, R. M.
+      Kinney, Z. Liu, W. Merrill, P. Mooney, D. A. Murdick, D. Rishi, J. Sheehan, Z. Shen,
+      B. Stilson, A. D. Wade, K. Wang, C. Wilhelm, B. Xie, D. A. Raymond, D. S. Weld,
+      O. Etzioni, and S. Kohlmeier, "Cord-19: The covid-19 open research dataset," ArXiv, 2020.
 
 In addition, the dataset is licensed under the [MIT License](LICENSE).
