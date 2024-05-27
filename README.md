@@ -21,6 +21,8 @@ All materials in the repository, except the files under the sample-data/ folder 
 (https://creativecommons.org/licenses/by-nc-sa/4.0/), hence this repository is open-source, requires attribution to this page 
 (which includes the Attribution section below) and  does not allow commercial exploitation.
 
+Note that the sample datasets inside this repository, as well as the two static datasets hosted at CWI linked here, remain
+copyright of their original owners and fall under the same licenses and terms of use as the original datasets.
 If you are the owner of an original dataset, and object to the inclusion of your data in the **RealNest** static datasets
 hosted at CWI or to the samples hosted in this repository, please contact Peter Boncz (boncz@cwi.nl) and we will take action. 
 
