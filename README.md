@@ -17,8 +17,8 @@ Please refer to the [README](scripts/README.md) in the [scripts](scripts) direct
 The scripts are released under the [MIT License](LICENSE).
 
 The static datafiles are released under the CC-NC-SA license https://creativecommons.org/licenses/by-nc-sa/4.0/
-hence the data is open-source, attribution to this page (including the Attribution section below) and does not
-allow commercial exploitation.
+hence the datis is open-source, requires attribution to this page (which includes the Attribution section below) and 
+does not allow commercial exploitation.
 
 If you are the owner of an original dataset, and object to the inclusion of your data in the **RealNest** static datasets, 
 please contact Peter Boncz (boncz@cwi.nl) and we will take action. Please note that below we make an attempt to 
