@@ -1,1 +1,14 @@
-{"columns": [{"name": "organisms", "type": "list", "children": [{"name": "child", "type": "varchar"}]}]}
+{
+  "columns": [
+    {
+      "name": "organisms",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "varchar"
+        }
+      ]
+    }
+  ]
+}

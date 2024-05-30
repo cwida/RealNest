@@ -1,1 +1,420 @@
-{"columns": [{"name": "forkee", "type": "struct", "children": [{"name": "id", "type": "bigint"}, {"name": "node_id", "type": "varchar"}, {"name": "name", "type": "varchar"}, {"name": "full_name", "type": "varchar"}, {"name": "private", "type": "boolean"}, {"name": "owner", "type": "struct", "children": [{"name": "login", "type": "varchar"}, {"name": "id", "type": "bigint"}, {"name": "node_id", "type": "varchar"}, {"name": "avatar_url", "type": "varchar"}, {"name": "gravatar_id", "type": "varchar"}, {"name": "url", "type": "varchar"}, {"name": "html_url", "type": "varchar"}, {"name": "followers_url", "type": "varchar"}, {"name": "following_url", "type": "varchar"}, {"name": "gists_url", "type": "varchar"}, {"name": "starred_url", "type": "varchar"}, {"name": "subscriptions_url", "type": "varchar"}, {"name": "organizations_url", "type": "varchar"}, {"name": "repos_url", "type": "varchar"}, {"name": "events_url", "type": "varchar"}, {"name": "received_events_url", "type": "varchar"}, {"name": "type", "type": "varchar"}, {"name": "site_admin", "type": "boolean"}]}, {"name": "html_url", "type": "varchar"}, {"name": "description", "type": "varchar"}, {"name": "fork", "type": "boolean"}, {"name": "url", "type": "varchar"}, {"name": "forks_url", "type": "varchar"}, {"name": "keys_url", "type": "varchar"}, {"name": "collaborators_url", "type": "varchar"}, {"name": "teams_url", "type": "varchar"}, {"name": "hooks_url", "type": "varchar"}, {"name": "issue_events_url", "type": "varchar"}, {"name": "events_url", "type": "varchar"}, {"name": "assignees_url", "type": "varchar"}, {"name": "branches_url", "type": "varchar"}, {"name": "tags_url", "type": "varchar"}, {"name": "blobs_url", "type": "varchar"}, {"name": "git_tags_url", "type": "varchar"}, {"name": "git_refs_url", "type": "varchar"}, {"name": "trees_url", "type": "varchar"}, {"name": "statuses_url", "type": "varchar"}, {"name": "languages_url", "type": "varchar"}, {"name": "stargazers_url", "type": "varchar"}, {"name": "contributors_url", "type": "varchar"}, {"name": "subscribers_url", "type": "varchar"}, {"name": "subscription_url", "type": "varchar"}, {"name": "commits_url", "type": "varchar"}, {"name": "git_commits_url", "type": "varchar"}, {"name": "comments_url", "type": "varchar"}, {"name": "issue_comment_url", "type": "varchar"}, {"name": "contents_url", "type": "varchar"}, {"name": "compare_url", "type": "varchar"}, {"name": "merges_url", "type": "varchar"}, {"name": "archive_url", "type": "varchar"}, {"name": "downloads_url", "type": "varchar"}, {"name": "issues_url", "type": "varchar"}, {"name": "pulls_url", "type": "varchar"}, {"name": "milestones_url", "type": "varchar"}, {"name": "notifications_url", "type": "varchar"}, {"name": "labels_url", "type": "varchar"}, {"name": "releases_url", "type": "varchar"}, {"name": "deployments_url", "type": "varchar"}, {"name": "created_at", "type": "timestamp"}, {"name": "updated_at", "type": "timestamp"}, {"name": "pushed_at", "type": "timestamp"}, {"name": "git_url", "type": "varchar"}, {"name": "ssh_url", "type": "varchar"}, {"name": "clone_url", "type": "varchar"}, {"name": "svn_url", "type": "varchar"}, {"name": "homepage", "type": "varchar"}, {"name": "size", "type": "bigint"}, {"name": "stargazers_count", "type": "bigint"}, {"name": "watchers_count", "type": "bigint"}, {"name": "language", "type": "json"}, {"name": "has_issues", "type": "boolean"}, {"name": "has_projects", "type": "boolean"}, {"name": "has_downloads", "type": "boolean"}, {"name": "has_wiki", "type": "boolean"}, {"name": "has_pages", "type": "boolean"}, {"name": "has_discussions", "type": "boolean"}, {"name": "forks_count", "type": "bigint"}, {"name": "mirror_url", "type": "json"}, {"name": "archived", "type": "boolean"}, {"name": "disabled", "type": "boolean"}, {"name": "open_issues_count", "type": "bigint"}, {"name": "license", "type": "map", "children": [{"name": "key", "type": "varchar"}, {"name": "value", "type": "varchar"}]}, {"name": "allow_forking", "type": "boolean"}, {"name": "is_template", "type": "boolean"}, {"name": "web_commit_signoff_required", "type": "boolean"}, {"name": "topics", "type": "list", "children": [{"name": "child", "type": "json"}]}, {"name": "visibility", "type": "varchar"}, {"name": "forks", "type": "bigint"}, {"name": "open_issues", "type": "bigint"}, {"name": "watchers", "type": "bigint"}, {"name": "default_branch", "type": "varchar"}, {"name": "public", "type": "boolean"}]}]}
+{
+  "columns": [
+    {
+      "name": "forkee",
+      "type": "struct",
+      "children": [
+        {
+          "name": "id",
+          "type": "bigint"
+        },
+        {
+          "name": "node_id",
+          "type": "varchar"
+        },
+        {
+          "name": "name",
+          "type": "varchar"
+        },
+        {
+          "name": "full_name",
+          "type": "varchar"
+        },
+        {
+          "name": "private",
+          "type": "boolean"
+        },
+        {
+          "name": "owner",
+          "type": "struct",
+          "children": [
+            {
+              "name": "login",
+              "type": "varchar"
+            },
+            {
+              "name": "id",
+              "type": "bigint"
+            },
+            {
+              "name": "node_id",
+              "type": "varchar"
+            },
+            {
+              "name": "avatar_url",
+              "type": "varchar"
+            },
+            {
+              "name": "gravatar_id",
+              "type": "varchar"
+            },
+            {
+              "name": "url",
+              "type": "varchar"
+            },
+            {
+              "name": "html_url",
+              "type": "varchar"
+            },
+            {
+              "name": "followers_url",
+              "type": "varchar"
+            },
+            {
+              "name": "following_url",
+              "type": "varchar"
+            },
+            {
+              "name": "gists_url",
+              "type": "varchar"
+            },
+            {
+              "name": "starred_url",
+              "type": "varchar"
+            },
+            {
+              "name": "subscriptions_url",
+              "type": "varchar"
+            },
+            {
+              "name": "organizations_url",
+              "type": "varchar"
+            },
+            {
+              "name": "repos_url",
+              "type": "varchar"
+            },
+            {
+              "name": "events_url",
+              "type": "varchar"
+            },
+            {
+              "name": "received_events_url",
+              "type": "varchar"
+            },
+            {
+              "name": "type",
+              "type": "varchar"
+            },
+            {
+              "name": "site_admin",
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "name": "html_url",
+          "type": "varchar"
+        },
+        {
+          "name": "description",
+          "type": "varchar"
+        },
+        {
+          "name": "fork",
+          "type": "boolean"
+        },
+        {
+          "name": "url",
+          "type": "varchar"
+        },
+        {
+          "name": "forks_url",
+          "type": "varchar"
+        },
+        {
+          "name": "keys_url",
+          "type": "varchar"
+        },
+        {
+          "name": "collaborators_url",
+          "type": "varchar"
+        },
+        {
+          "name": "teams_url",
+          "type": "varchar"
+        },
+        {
+          "name": "hooks_url",
+          "type": "varchar"
+        },
+        {
+          "name": "issue_events_url",
+          "type": "varchar"
+        },
+        {
+          "name": "events_url",
+          "type": "varchar"
+        },
+        {
+          "name": "assignees_url",
+          "type": "varchar"
+        },
+        {
+          "name": "branches_url",
+          "type": "varchar"
+        },
+        {
+          "name": "tags_url",
+          "type": "varchar"
+        },
+        {
+          "name": "blobs_url",
+          "type": "varchar"
+        },
+        {
+          "name": "git_tags_url",
+          "type": "varchar"
+        },
+        {
+          "name": "git_refs_url",
+          "type": "varchar"
+        },
+        {
+          "name": "trees_url",
+          "type": "varchar"
+        },
+        {
+          "name": "statuses_url",
+          "type": "varchar"
+        },
+        {
+          "name": "languages_url",
+          "type": "varchar"
+        },
+        {
+          "name": "stargazers_url",
+          "type": "varchar"
+        },
+        {
+          "name": "contributors_url",
+          "type": "varchar"
+        },
+        {
+          "name": "subscribers_url",
+          "type": "varchar"
+        },
+        {
+          "name": "subscription_url",
+          "type": "varchar"
+        },
+        {
+          "name": "commits_url",
+          "type": "varchar"
+        },
+        {
+          "name": "git_commits_url",
+          "type": "varchar"
+        },
+        {
+          "name": "comments_url",
+          "type": "varchar"
+        },
+        {
+          "name": "issue_comment_url",
+          "type": "varchar"
+        },
+        {
+          "name": "contents_url",
+          "type": "varchar"
+        },
+        {
+          "name": "compare_url",
+          "type": "varchar"
+        },
+        {
+          "name": "merges_url",
+          "type": "varchar"
+        },
+        {
+          "name": "archive_url",
+          "type": "varchar"
+        },
+        {
+          "name": "downloads_url",
+          "type": "varchar"
+        },
+        {
+          "name": "issues_url",
+          "type": "varchar"
+        },
+        {
+          "name": "pulls_url",
+          "type": "varchar"
+        },
+        {
+          "name": "milestones_url",
+          "type": "varchar"
+        },
+        {
+          "name": "notifications_url",
+          "type": "varchar"
+        },
+        {
+          "name": "labels_url",
+          "type": "varchar"
+        },
+        {
+          "name": "releases_url",
+          "type": "varchar"
+        },
+        {
+          "name": "deployments_url",
+          "type": "varchar"
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp"
+        },
+        {
+          "name": "updated_at",
+          "type": "timestamp"
+        },
+        {
+          "name": "pushed_at",
+          "type": "timestamp"
+        },
+        {
+          "name": "git_url",
+          "type": "varchar"
+        },
+        {
+          "name": "ssh_url",
+          "type": "varchar"
+        },
+        {
+          "name": "clone_url",
+          "type": "varchar"
+        },
+        {
+          "name": "svn_url",
+          "type": "varchar"
+        },
+        {
+          "name": "homepage",
+          "type": "varchar"
+        },
+        {
+          "name": "size",
+          "type": "bigint"
+        },
+        {
+          "name": "stargazers_count",
+          "type": "bigint"
+        },
+        {
+          "name": "watchers_count",
+          "type": "bigint"
+        },
+        {
+          "name": "language",
+          "type": "json"
+        },
+        {
+          "name": "has_issues",
+          "type": "boolean"
+        },
+        {
+          "name": "has_projects",
+          "type": "boolean"
+        },
+        {
+          "name": "has_downloads",
+          "type": "boolean"
+        },
+        {
+          "name": "has_wiki",
+          "type": "boolean"
+        },
+        {
+          "name": "has_pages",
+          "type": "boolean"
+        },
+        {
+          "name": "has_discussions",
+          "type": "boolean"
+        },
+        {
+          "name": "forks_count",
+          "type": "bigint"
+        },
+        {
+          "name": "mirror_url",
+          "type": "json"
+        },
+        {
+          "name": "archived",
+          "type": "boolean"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "open_issues_count",
+          "type": "bigint"
+        },
+        {
+          "name": "license",
+          "type": "map",
+          "children": [
+            {
+              "name": "key",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "varchar"
+            }
+          ]
+        },
+        {
+          "name": "allow_forking",
+          "type": "boolean"
+        },
+        {
+          "name": "is_template",
+          "type": "boolean"
+        },
+        {
+          "name": "web_commit_signoff_required",
+          "type": "boolean"
+        },
+        {
+          "name": "topics",
+          "type": "list",
+          "children": [
+            {
+              "name": "child",
+              "type": "json"
+            }
+          ]
+        },
+        {
+          "name": "visibility",
+          "type": "varchar"
+        },
+        {
+          "name": "forks",
+          "type": "bigint"
+        },
+        {
+          "name": "open_issues",
+          "type": "bigint"
+        },
+        {
+          "name": "watchers",
+          "type": "bigint"
+        },
+        {
+          "name": "default_branch",
+          "type": "varchar"
+        },
+        {
+          "name": "public",
+          "type": "boolean"
+        }
+      ]
+    }
+  ]
+}

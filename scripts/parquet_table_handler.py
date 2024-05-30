@@ -79,7 +79,7 @@ def handle_parquet_table(key: str, urls: list[str]):
             delete_folder(jsons_dir)
 
             with open(table_dir / 'schema.json', 'w') as f:
-                json.dump(merged_schema, f, default=lambda o: o.__dict__)
+                json.dump(merged_schema, f, indent=2, default=lambda o: o.__dict__)
 
             print(f"Exported {total_rows} rows to {table_dir}")
         except Exception as e:

@@ -1,1 +1,130 @@
-{"columns": [{"name": "bbox", "type": "struct", "children": [{"name": "xmin", "type": "float"}, {"name": "xmax", "type": "float"}, {"name": "ymin", "type": "float"}, {"name": "ymax", "type": "float"}]}, {"name": "sources", "type": "list", "children": [{"name": "child", "type": "struct", "children": [{"name": "property", "type": "varchar"}, {"name": "dataset", "type": "varchar"}, {"name": "record_id", "type": "varchar"}, {"name": "confidence", "type": "double"}]}]}, {"name": "names", "type": "struct", "children": [{"name": "primary", "type": "varchar"}, {"name": "common", "type": "map", "children": [{"name": "key", "type": "varchar"}, {"name": "value", "type": "varchar"}]}, {"name": "rules", "type": "list", "children": [{"name": "child", "type": "struct", "children": [{"name": "variant", "type": "varchar"}, {"name": "language", "type": "varchar"}, {"name": "value", "type": "varchar"}, {"name": "between", "type": "list", "children": [{"name": "child", "type": "double"}]}, {"name": "side", "type": "varchar"}]}]}]}, {"name": "source_tags", "type": "map", "children": [{"name": "key", "type": "varchar"}, {"name": "value", "type": "varchar"}]}]}
+{
+  "columns": [
+    {
+      "name": "bbox",
+      "type": "struct",
+      "children": [
+        {
+          "name": "xmin",
+          "type": "float"
+        },
+        {
+          "name": "xmax",
+          "type": "float"
+        },
+        {
+          "name": "ymin",
+          "type": "float"
+        },
+        {
+          "name": "ymax",
+          "type": "float"
+        }
+      ]
+    },
+    {
+      "name": "sources",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "property",
+              "type": "varchar"
+            },
+            {
+              "name": "dataset",
+              "type": "varchar"
+            },
+            {
+              "name": "record_id",
+              "type": "varchar"
+            },
+            {
+              "name": "confidence",
+              "type": "double"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "names",
+      "type": "struct",
+      "children": [
+        {
+          "name": "primary",
+          "type": "varchar"
+        },
+        {
+          "name": "common",
+          "type": "map",
+          "children": [
+            {
+              "name": "key",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "varchar"
+            }
+          ]
+        },
+        {
+          "name": "rules",
+          "type": "list",
+          "children": [
+            {
+              "name": "child",
+              "type": "struct",
+              "children": [
+                {
+                  "name": "variant",
+                  "type": "varchar"
+                },
+                {
+                  "name": "language",
+                  "type": "varchar"
+                },
+                {
+                  "name": "value",
+                  "type": "varchar"
+                },
+                {
+                  "name": "between",
+                  "type": "list",
+                  "children": [
+                    {
+                      "name": "child",
+                      "type": "double"
+                    }
+                  ]
+                },
+                {
+                  "name": "side",
+                  "type": "varchar"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "source_tags",
+      "type": "map",
+      "children": [
+        {
+          "name": "key",
+          "type": "varchar"
+        },
+        {
+          "name": "value",
+          "type": "varchar"
+        }
+      ]
+    }
+  ]
+}
