@@ -1,0 +1,1268 @@
+{
+  "columns": [
+    {
+      "name": "data",
+      "type": "struct",
+      "children": [
+        {
+          "name": "attachments",
+          "type": "struct",
+          "children": [
+            {
+              "name": "media_keys",
+              "type": "list",
+              "children": [
+                {
+                  "name": "child",
+                  "type": "varchar"
+                }
+              ]
+            },
+            {
+              "name": "poll_ids",
+              "type": "list",
+              "children": [
+                {
+                  "name": "child",
+                  "type": "varchar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "author_id",
+          "type": "varchar"
+        },
+        {
+          "name": "context_annotations",
+          "type": "list",
+          "children": [
+            {
+              "name": "child",
+              "type": "struct",
+              "children": [
+                {
+                  "name": "domain",
+                  "type": "struct",
+                  "children": [
+                    {
+                      "name": "id",
+                      "type": "varchar"
+                    },
+                    {
+                      "name": "name",
+                      "type": "varchar"
+                    },
+                    {
+                      "name": "description",
+                      "type": "varchar"
+                    }
+                  ]
+                },
+                {
+                  "name": "entity",
+                  "type": "struct",
+                  "children": [
+                    {
+                      "name": "id",
+                      "type": "varchar"
+                    },
+                    {
+                      "name": "name",
+                      "type": "varchar"
+                    },
+                    {
+                      "name": "description",
+                      "type": "varchar"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "conversation_id",
+          "type": "varchar"
+        },
+        {
+          "name": "created_at",
+          "type": "varchar"
+        },
+        {
+          "name": "edit_controls",
+          "type": "struct",
+          "children": [
+            {
+              "name": "edits_remaining",
+              "type": "bigint"
+            },
+            {
+              "name": "is_edit_eligible",
+              "type": "boolean"
+            },
+            {
+              "name": "editable_until",
+              "type": "varchar"
+            }
+          ]
+        },
+        {
+          "name": "edit_history_tweet_ids",
+          "type": "list",
+          "children": [
+            {
+              "name": "child",
+              "type": "varchar"
+            }
+          ]
+        },
+        {
+          "name": "entities",
+          "type": "struct",
+          "children": [
+            {
+              "name": "hashtags",
+              "type": "list",
+              "children": [
+                {
+                  "name": "child",
+                  "type": "struct",
+                  "children": [
+                    {
+                      "name": "start",
+                      "type": "bigint"
+                    },
+                    {
+                      "name": "end",
+                      "type": "bigint"
+                    },
+                    {
+                      "name": "tag",
+                      "type": "varchar"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "mentions",
+              "type": "list",
+              "children": [
+                {
+                  "name": "child",
+                  "type": "struct",
+                  "children": [
+                    {
+                      "name": "start",
+                      "type": "bigint"
+                    },
+                    {
+                      "name": "end",
+                      "type": "bigint"
+                    },
+                    {
+                      "name": "username",
+                      "type": "varchar"
+                    },
+                    {
+                      "name": "id",
+                      "type": "varchar"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "urls",
+              "type": "list",
+              "children": [
+                {
+                  "name": "child",
+                  "type": "struct",
+                  "children": [
+                    {
+                      "name": "start",
+                      "type": "bigint"
+                    },
+                    {
+                      "name": "end",
+                      "type": "bigint"
+                    },
+                    {
+                      "name": "url",
+                      "type": "varchar"
+                    },
+                    {
+                      "name": "expanded_url",
+                      "type": "varchar"
+                    },
+                    {
+                      "name": "display_url",
+                      "type": "varchar"
+                    },
+                    {
+                      "name": "images",
+                      "type": "list",
+                      "children": [
+                        {
+                          "name": "child",
+                          "type": "struct",
+                          "children": [
+                            {
+                              "name": "url",
+                              "type": "varchar"
+                            },
+                            {
+                              "name": "width",
+                              "type": "bigint"
+                            },
+                            {
+                              "name": "height",
+                              "type": "bigint"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "status",
+                      "type": "bigint"
+                    },
+                    {
+                      "name": "title",
+                      "type": "varchar"
+                    },
+                    {
+                      "name": "description",
+                      "type": "varchar"
+                    },
+                    {
+                      "name": "unwound_url",
+                      "type": "varchar"
+                    },
+                    {
+                      "name": "media_key",
+                      "type": "varchar"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "annotations",
+              "type": "list",
+              "children": [
+                {
+                  "name": "child",
+                  "type": "struct",
+                  "children": [
+                    {
+                      "name": "start",
+                      "type": "bigint"
+                    },
+                    {
+                      "name": "end",
+                      "type": "bigint"
+                    },
+                    {
+                      "name": "probability",
+                      "type": "double"
+                    },
+                    {
+                      "name": "type",
+                      "type": "varchar"
+                    },
+                    {
+                      "name": "normalized_text",
+                      "type": "varchar"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "cashtags",
+              "type": "list",
+              "children": [
+                {
+                  "name": "child",
+                  "type": "struct",
+                  "children": [
+                    {
+                      "name": "start",
+                      "type": "bigint"
+                    },
+                    {
+                      "name": "end",
+                      "type": "bigint"
+                    },
+                    {
+                      "name": "tag",
+                      "type": "varchar"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "geo",
+          "type": "map",
+          "children": [
+            {
+              "name": "key",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "json"
+            }
+          ]
+        },
+        {
+          "name": "id",
+          "type": "varchar"
+        },
+        {
+          "name": "lang",
+          "type": "varchar"
+        },
+        {
+          "name": "possibly_sensitive",
+          "type": "boolean"
+        },
+        {
+          "name": "public_metrics",
+          "type": "struct",
+          "children": [
+            {
+              "name": "retweet_count",
+              "type": "bigint"
+            },
+            {
+              "name": "reply_count",
+              "type": "bigint"
+            },
+            {
+              "name": "like_count",
+              "type": "bigint"
+            },
+            {
+              "name": "quote_count",
+              "type": "bigint"
+            },
+            {
+              "name": "impression_count",
+              "type": "bigint"
+            }
+          ]
+        },
+        {
+          "name": "referenced_tweets",
+          "type": "list",
+          "children": [
+            {
+              "name": "child",
+              "type": "struct",
+              "children": [
+                {
+                  "name": "type",
+                  "type": "varchar"
+                },
+                {
+                  "name": "id",
+                  "type": "varchar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "reply_settings",
+          "type": "varchar"
+        },
+        {
+          "name": "text",
+          "type": "varchar"
+        },
+        {
+          "name": "in_reply_to_user_id",
+          "type": "varchar"
+        },
+        {
+          "name": "withheld",
+          "type": "map",
+          "children": [
+            {
+              "name": "key",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "includes",
+      "type": "struct",
+      "children": [
+        {
+          "name": "users",
+          "type": "list",
+          "children": [
+            {
+              "name": "child",
+              "type": "struct",
+              "children": [
+                {
+                  "name": "created_at",
+                  "type": "varchar"
+                },
+                {
+                  "name": "description",
+                  "type": "varchar"
+                },
+                {
+                  "name": "entities",
+                  "type": "struct",
+                  "children": [
+                    {
+                      "name": "url",
+                      "type": "struct",
+                      "children": [
+                        {
+                          "name": "urls",
+                          "type": "list",
+                          "children": [
+                            {
+                              "name": "child",
+                              "type": "struct",
+                              "children": [
+                                {
+                                  "name": "start",
+                                  "type": "bigint"
+                                },
+                                {
+                                  "name": "end",
+                                  "type": "bigint"
+                                },
+                                {
+                                  "name": "url",
+                                  "type": "varchar"
+                                },
+                                {
+                                  "name": "expanded_url",
+                                  "type": "varchar"
+                                },
+                                {
+                                  "name": "display_url",
+                                  "type": "varchar"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "description",
+                      "type": "map",
+                      "children": [
+                        {
+                          "name": "key",
+                          "type": "varchar"
+                        },
+                        {
+                          "name": "value",
+                          "type": "list",
+                          "children": [
+                            {
+                              "name": "child",
+                              "type": "struct",
+                              "children": [
+                                {
+                                  "name": "start",
+                                  "type": "bigint"
+                                },
+                                {
+                                  "name": "end",
+                                  "type": "bigint"
+                                },
+                                {
+                                  "name": "url",
+                                  "type": "varchar"
+                                },
+                                {
+                                  "name": "expanded_url",
+                                  "type": "varchar"
+                                },
+                                {
+                                  "name": "display_url",
+                                  "type": "varchar"
+                                },
+                                {
+                                  "name": "username",
+                                  "type": "varchar"
+                                },
+                                {
+                                  "name": "tag",
+                                  "type": "varchar"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "id",
+                  "type": "varchar"
+                },
+                {
+                  "name": "location",
+                  "type": "varchar"
+                },
+                {
+                  "name": "name",
+                  "type": "varchar"
+                },
+                {
+                  "name": "pinned_tweet_id",
+                  "type": "varchar"
+                },
+                {
+                  "name": "profile_image_url",
+                  "type": "varchar"
+                },
+                {
+                  "name": "protected",
+                  "type": "boolean"
+                },
+                {
+                  "name": "public_metrics",
+                  "type": "struct",
+                  "children": [
+                    {
+                      "name": "followers_count",
+                      "type": "bigint"
+                    },
+                    {
+                      "name": "following_count",
+                      "type": "bigint"
+                    },
+                    {
+                      "name": "tweet_count",
+                      "type": "bigint"
+                    },
+                    {
+                      "name": "listed_count",
+                      "type": "bigint"
+                    }
+                  ]
+                },
+                {
+                  "name": "url",
+                  "type": "varchar"
+                },
+                {
+                  "name": "username",
+                  "type": "varchar"
+                },
+                {
+                  "name": "verified",
+                  "type": "boolean"
+                },
+                {
+                  "name": "withheld",
+                  "type": "map",
+                  "children": [
+                    {
+                      "name": "key",
+                      "type": "varchar"
+                    },
+                    {
+                      "name": "value",
+                      "type": "list",
+                      "children": [
+                        {
+                          "name": "child",
+                          "type": "varchar"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "tweets",
+          "type": "list",
+          "children": [
+            {
+              "name": "child",
+              "type": "struct",
+              "children": [
+                {
+                  "name": "attachments",
+                  "type": "struct",
+                  "children": [
+                    {
+                      "name": "media_keys",
+                      "type": "list",
+                      "children": [
+                        {
+                          "name": "child",
+                          "type": "varchar"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "poll_ids",
+                      "type": "list",
+                      "children": [
+                        {
+                          "name": "child",
+                          "type": "varchar"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "author_id",
+                  "type": "varchar"
+                },
+                {
+                  "name": "context_annotations",
+                  "type": "list",
+                  "children": [
+                    {
+                      "name": "child",
+                      "type": "struct",
+                      "children": [
+                        {
+                          "name": "domain",
+                          "type": "struct",
+                          "children": [
+                            {
+                              "name": "id",
+                              "type": "varchar"
+                            },
+                            {
+                              "name": "name",
+                              "type": "varchar"
+                            },
+                            {
+                              "name": "description",
+                              "type": "varchar"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "entity",
+                          "type": "struct",
+                          "children": [
+                            {
+                              "name": "id",
+                              "type": "varchar"
+                            },
+                            {
+                              "name": "name",
+                              "type": "varchar"
+                            },
+                            {
+                              "name": "description",
+                              "type": "varchar"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "conversation_id",
+                  "type": "varchar"
+                },
+                {
+                  "name": "created_at",
+                  "type": "varchar"
+                },
+                {
+                  "name": "edit_controls",
+                  "type": "struct",
+                  "children": [
+                    {
+                      "name": "edits_remaining",
+                      "type": "bigint"
+                    },
+                    {
+                      "name": "is_edit_eligible",
+                      "type": "boolean"
+                    },
+                    {
+                      "name": "editable_until",
+                      "type": "varchar"
+                    }
+                  ]
+                },
+                {
+                  "name": "edit_history_tweet_ids",
+                  "type": "list",
+                  "children": [
+                    {
+                      "name": "child",
+                      "type": "varchar"
+                    }
+                  ]
+                },
+                {
+                  "name": "entities",
+                  "type": "struct",
+                  "children": [
+                    {
+                      "name": "hashtags",
+                      "type": "list",
+                      "children": [
+                        {
+                          "name": "child",
+                          "type": "struct",
+                          "children": [
+                            {
+                              "name": "start",
+                              "type": "bigint"
+                            },
+                            {
+                              "name": "end",
+                              "type": "bigint"
+                            },
+                            {
+                              "name": "tag",
+                              "type": "varchar"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "mentions",
+                      "type": "list",
+                      "children": [
+                        {
+                          "name": "child",
+                          "type": "struct",
+                          "children": [
+                            {
+                              "name": "start",
+                              "type": "bigint"
+                            },
+                            {
+                              "name": "end",
+                              "type": "bigint"
+                            },
+                            {
+                              "name": "username",
+                              "type": "varchar"
+                            },
+                            {
+                              "name": "id",
+                              "type": "varchar"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "urls",
+                      "type": "list",
+                      "children": [
+                        {
+                          "name": "child",
+                          "type": "struct",
+                          "children": [
+                            {
+                              "name": "start",
+                              "type": "bigint"
+                            },
+                            {
+                              "name": "end",
+                              "type": "bigint"
+                            },
+                            {
+                              "name": "url",
+                              "type": "varchar"
+                            },
+                            {
+                              "name": "expanded_url",
+                              "type": "varchar"
+                            },
+                            {
+                              "name": "display_url",
+                              "type": "varchar"
+                            },
+                            {
+                              "name": "images",
+                              "type": "list",
+                              "children": [
+                                {
+                                  "name": "child",
+                                  "type": "struct",
+                                  "children": [
+                                    {
+                                      "name": "url",
+                                      "type": "varchar"
+                                    },
+                                    {
+                                      "name": "width",
+                                      "type": "bigint"
+                                    },
+                                    {
+                                      "name": "height",
+                                      "type": "bigint"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "status",
+                              "type": "bigint"
+                            },
+                            {
+                              "name": "title",
+                              "type": "varchar"
+                            },
+                            {
+                              "name": "description",
+                              "type": "varchar"
+                            },
+                            {
+                              "name": "unwound_url",
+                              "type": "varchar"
+                            },
+                            {
+                              "name": "media_key",
+                              "type": "varchar"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "annotations",
+                      "type": "list",
+                      "children": [
+                        {
+                          "name": "child",
+                          "type": "struct",
+                          "children": [
+                            {
+                              "name": "start",
+                              "type": "bigint"
+                            },
+                            {
+                              "name": "end",
+                              "type": "bigint"
+                            },
+                            {
+                              "name": "probability",
+                              "type": "double"
+                            },
+                            {
+                              "name": "type",
+                              "type": "varchar"
+                            },
+                            {
+                              "name": "normalized_text",
+                              "type": "varchar"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "cashtags",
+                      "type": "list",
+                      "children": [
+                        {
+                          "name": "child",
+                          "type": "struct",
+                          "children": [
+                            {
+                              "name": "start",
+                              "type": "bigint"
+                            },
+                            {
+                              "name": "end",
+                              "type": "bigint"
+                            },
+                            {
+                              "name": "tag",
+                              "type": "varchar"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "geo",
+                  "type": "map",
+                  "children": [
+                    {
+                      "name": "key",
+                      "type": "varchar"
+                    },
+                    {
+                      "name": "value",
+                      "type": "json"
+                    }
+                  ]
+                },
+                {
+                  "name": "id",
+                  "type": "varchar"
+                },
+                {
+                  "name": "lang",
+                  "type": "varchar"
+                },
+                {
+                  "name": "possibly_sensitive",
+                  "type": "boolean"
+                },
+                {
+                  "name": "public_metrics",
+                  "type": "struct",
+                  "children": [
+                    {
+                      "name": "retweet_count",
+                      "type": "bigint"
+                    },
+                    {
+                      "name": "reply_count",
+                      "type": "bigint"
+                    },
+                    {
+                      "name": "like_count",
+                      "type": "bigint"
+                    },
+                    {
+                      "name": "quote_count",
+                      "type": "bigint"
+                    },
+                    {
+                      "name": "impression_count",
+                      "type": "bigint"
+                    }
+                  ]
+                },
+                {
+                  "name": "referenced_tweets",
+                  "type": "list",
+                  "children": [
+                    {
+                      "name": "child",
+                      "type": "struct",
+                      "children": [
+                        {
+                          "name": "type",
+                          "type": "varchar"
+                        },
+                        {
+                          "name": "id",
+                          "type": "varchar"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "reply_settings",
+                  "type": "varchar"
+                },
+                {
+                  "name": "text",
+                  "type": "varchar"
+                },
+                {
+                  "name": "in_reply_to_user_id",
+                  "type": "varchar"
+                },
+                {
+                  "name": "withheld",
+                  "type": "map",
+                  "children": [
+                    {
+                      "name": "key",
+                      "type": "varchar"
+                    },
+                    {
+                      "name": "value",
+                      "type": "json"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "media",
+          "type": "list",
+          "children": [
+            {
+              "name": "child",
+              "type": "struct",
+              "children": [
+                {
+                  "name": "duration_ms",
+                  "type": "bigint"
+                },
+                {
+                  "name": "height",
+                  "type": "bigint"
+                },
+                {
+                  "name": "media_key",
+                  "type": "varchar"
+                },
+                {
+                  "name": "preview_image_url",
+                  "type": "varchar"
+                },
+                {
+                  "name": "public_metrics",
+                  "type": "struct",
+                  "children": [
+                    {
+                      "name": "view_count",
+                      "type": "bigint"
+                    }
+                  ]
+                },
+                {
+                  "name": "type",
+                  "type": "varchar"
+                },
+                {
+                  "name": "variants",
+                  "type": "list",
+                  "children": [
+                    {
+                      "name": "child",
+                      "type": "struct",
+                      "children": [
+                        {
+                          "name": "bit_rate",
+                          "type": "bigint"
+                        },
+                        {
+                          "name": "content_type",
+                          "type": "varchar"
+                        },
+                        {
+                          "name": "url",
+                          "type": "varchar"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "width",
+                  "type": "bigint"
+                },
+                {
+                  "name": "url",
+                  "type": "varchar"
+                },
+                {
+                  "name": "alt_text",
+                  "type": "varchar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "places",
+          "type": "list",
+          "children": [
+            {
+              "name": "child",
+              "type": "struct",
+              "children": [
+                {
+                  "name": "country",
+                  "type": "varchar"
+                },
+                {
+                  "name": "country_code",
+                  "type": "varchar"
+                },
+                {
+                  "name": "full_name",
+                  "type": "varchar"
+                },
+                {
+                  "name": "geo",
+                  "type": "struct",
+                  "children": [
+                    {
+                      "name": "type",
+                      "type": "varchar"
+                    },
+                    {
+                      "name": "bbox",
+                      "type": "list",
+                      "children": [
+                        {
+                          "name": "child",
+                          "type": "double"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "properties",
+                      "type": "map",
+                      "children": [
+                        {
+                          "name": "key",
+                          "type": "varchar"
+                        },
+                        {
+                          "name": "value",
+                          "type": "json"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "id",
+                  "type": "varchar"
+                },
+                {
+                  "name": "name",
+                  "type": "varchar"
+                },
+                {
+                  "name": "place_type",
+                  "type": "varchar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "polls",
+          "type": "list",
+          "children": [
+            {
+              "name": "child",
+              "type": "struct",
+              "children": [
+                {
+                  "name": "duration_minutes",
+                  "type": "bigint"
+                },
+                {
+                  "name": "end_datetime",
+                  "type": "varchar"
+                },
+                {
+                  "name": "id",
+                  "type": "varchar"
+                },
+                {
+                  "name": "options",
+                  "type": "list",
+                  "children": [
+                    {
+                      "name": "child",
+                      "type": "struct",
+                      "children": [
+                        {
+                          "name": "position",
+                          "type": "bigint"
+                        },
+                        {
+                          "name": "label",
+                          "type": "varchar"
+                        },
+                        {
+                          "name": "votes",
+                          "type": "bigint"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "voting_status",
+                  "type": "varchar"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "errors",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "value",
+              "type": "varchar"
+            },
+            {
+              "name": "detail",
+              "type": "varchar"
+            },
+            {
+              "name": "title",
+              "type": "varchar"
+            },
+            {
+              "name": "resource_type",
+              "type": "varchar"
+            },
+            {
+              "name": "parameter",
+              "type": "varchar"
+            },
+            {
+              "name": "resource_id",
+              "type": "varchar"
+            },
+            {
+              "name": "type",
+              "type": "varchar"
+            },
+            {
+              "name": "section",
+              "type": "varchar"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

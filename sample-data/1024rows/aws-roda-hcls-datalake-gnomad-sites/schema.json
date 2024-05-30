@@ -1,0 +1,6814 @@
+{
+  "columns": [
+    {
+      "name": "alleles",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "varchar"
+        }
+      ]
+    },
+    {
+      "name": "filters",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "varchar"
+        }
+      ]
+    },
+    {
+      "name": "info.AC",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.popmax",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "varchar"
+        }
+      ]
+    },
+    {
+      "name": "info.faf95_popmax",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-fin-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-fin-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-fin-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-mid",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-mid",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-mid",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-asj-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-asj-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-asj-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-oth",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-oth",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-oth",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-mid-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-mid-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-mid-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-asj-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-asj-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-asj-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-fin",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-fin",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-fin",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-fin-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-fin-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-fin-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-asj-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-asj-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-asj-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-raw",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-raw",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-raw",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-asj",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-asj",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-asj",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-raw",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-raw",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-raw",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-ami",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-ami",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-ami",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-fin-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-fin-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-fin-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-oth",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-oth",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-oth",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-ami",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-ami",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-ami",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-ami-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-ami-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-ami-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-ami-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-ami-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-ami-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-oth-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-oth-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-oth-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-ami",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-ami",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-ami",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-oth-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-oth-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-oth-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-fin",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-fin",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-fin",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-asj-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-asj-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-asj-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-mid",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-mid",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-mid",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-oth-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-oth-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-oth-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-ami-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-ami-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-ami-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-fin-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-fin-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-fin-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-raw",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-raw",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-raw",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-mid",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-mid",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-mid",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-asj-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-asj-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-asj-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-fin-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-fin-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-fin-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-mid-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-mid-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-mid-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-oth-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-oth-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-oth-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-fin",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-fin",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-fin",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-ami",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-ami",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-ami",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-asj-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-asj-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-asj-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-asj-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-asj-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-asj-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-mid-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-mid-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-mid-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-fin-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-fin-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-fin-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-ami",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-ami",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-ami",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-mid",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-mid",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-mid",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-mid-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-mid-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-mid-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-ami-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-ami-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-ami-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-asj-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-asj-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-asj-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-fin",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-fin",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-fin",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-asj-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-asj-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-asj-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-mid-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-mid-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-mid-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-raw",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-raw",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-raw",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-ami-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-ami-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-ami-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-mid",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-mid",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-mid",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-mid",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-mid",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-mid",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-oth-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-oth-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-oth-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-ami-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-ami-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-ami-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-mid-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-mid-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-mid-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-asj",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-asj",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-asj",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-asj-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-asj-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-asj-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-asj",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-asj",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-asj",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-asj-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-asj-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-asj-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-fin-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-fin-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-fin-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-ami",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-ami",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-ami",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-fin-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-fin-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-fin-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-raw",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-raw",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-raw",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-ami-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-ami-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-ami-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-mid-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-mid-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-mid-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-fin",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-fin",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-fin",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-oth",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-oth",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-oth",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-asj",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-asj",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-asj",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-mid-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-mid-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-mid-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-fin-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-fin-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-fin-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-ami-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-ami-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-ami-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-mid-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-mid-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-mid-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-fin-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-fin-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-fin-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-mid-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-mid-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-mid-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-asj-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-asj-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-asj-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-fin-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-fin-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-fin-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-ami-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-ami-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-ami-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-ami-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-ami-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-ami-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-oth",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-oth",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-oth",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-oth",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-oth",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-oth",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-oth",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-oth",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-oth",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-oth-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-oth-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-oth-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-mid-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-mid-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-mid-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-oth-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-oth-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-oth-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-fin-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-fin-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-fin-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-asj",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-asj",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-asj",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-oth-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-oth-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-oth-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_v2-ami-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_v2-ami-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_v2-ami-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-raw",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-raw",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-raw",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-ami-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-ami-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-ami-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-oth-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-oth-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-oth-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-oth-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-oth-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-oth-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_cancer-fin",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_cancer-fin",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_cancer-fin",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-asj",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-asj",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-asj",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_topmed-oth-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_topmed-oth-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_topmed-oth-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-mid-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-mid-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-mid-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-controls_and_biobanks-oth-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-controls_and_biobanks-oth-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-controls_and_biobanks-oth-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-non_neuro-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-non_neuro-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-non_neuro-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AC_popmax",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AN_popmax",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AF_popmax",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.nhomalt_popmax",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.faf95-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf99-amr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf95-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf99-sas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf95-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf99-nfe-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf95-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf99-sas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf95-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf99-amr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf95-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf99-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf95-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf99-sas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf95-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf99-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf95-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf99-eas",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf95-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf99-amr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf95-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf99-afr",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf95-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf99-eas-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf95",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf99",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf95-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf99-afr-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf95-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf99-afr-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf95-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf99-eas-XX",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf95-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf99-nfe-XY",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf95-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.faf99-nfe",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.age_hist_het_bin_freq",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "varchar"
+        }
+      ]
+    },
+    {
+      "name": "info.age_hist_het_n_smaller",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.age_hist_het_n_larger",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.age_hist_hom_bin_freq",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "varchar"
+        }
+      ]
+    },
+    {
+      "name": "info.age_hist_hom_n_smaller",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.age_hist_hom_n_larger",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.AS_FS",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.AS_MQ",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.AS_MQRankSum",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.AS_pab_max",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.AS_QD",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.AS_ReadPosRankSum",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.AS_SOR",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.InbreedingCoeff",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.AS_VQSLOD",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "name": "info.AS_culprit",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "varchar"
+        }
+      ]
+    },
+    {
+      "name": "info.gq_hist_alt_bin_freq",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "varchar"
+        }
+      ]
+    },
+    {
+      "name": "info.gq_hist_all_bin_freq",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "varchar"
+        }
+      ]
+    },
+    {
+      "name": "info.dp_hist_alt_bin_freq",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "varchar"
+        }
+      ]
+    },
+    {
+      "name": "info.dp_hist_alt_n_larger",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.dp_hist_all_bin_freq",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "varchar"
+        }
+      ]
+    },
+    {
+      "name": "info.dp_hist_all_n_smaller",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.dp_hist_all_n_larger",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "integer"
+        }
+      ]
+    },
+    {
+      "name": "info.ab_hist_alt_bin_freq",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "varchar"
+        }
+      ]
+    },
+    {
+      "name": "info.vep",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "varchar"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,466 @@
+{
+  "columns": [
+    {
+      "name": "issue",
+      "type": "struct",
+      "children": [
+        {
+          "name": "url",
+          "type": "varchar"
+        },
+        {
+          "name": "repository_url",
+          "type": "varchar"
+        },
+        {
+          "name": "labels_url",
+          "type": "varchar"
+        },
+        {
+          "name": "comments_url",
+          "type": "varchar"
+        },
+        {
+          "name": "events_url",
+          "type": "varchar"
+        },
+        {
+          "name": "html_url",
+          "type": "varchar"
+        },
+        {
+          "name": "id",
+          "type": "bigint"
+        },
+        {
+          "name": "node_id",
+          "type": "varchar"
+        },
+        {
+          "name": "number",
+          "type": "bigint"
+        },
+        {
+          "name": "title",
+          "type": "varchar"
+        },
+        {
+          "name": "user",
+          "type": "struct",
+          "children": [
+            {
+              "name": "login",
+              "type": "varchar"
+            },
+            {
+              "name": "id",
+              "type": "bigint"
+            },
+            {
+              "name": "node_id",
+              "type": "varchar"
+            },
+            {
+              "name": "avatar_url",
+              "type": "varchar"
+            },
+            {
+              "name": "gravatar_id",
+              "type": "varchar"
+            },
+            {
+              "name": "url",
+              "type": "varchar"
+            },
+            {
+              "name": "html_url",
+              "type": "varchar"
+            },
+            {
+              "name": "followers_url",
+              "type": "varchar"
+            },
+            {
+              "name": "following_url",
+              "type": "varchar"
+            },
+            {
+              "name": "gists_url",
+              "type": "varchar"
+            },
+            {
+              "name": "starred_url",
+              "type": "varchar"
+            },
+            {
+              "name": "subscriptions_url",
+              "type": "varchar"
+            },
+            {
+              "name": "organizations_url",
+              "type": "varchar"
+            },
+            {
+              "name": "repos_url",
+              "type": "varchar"
+            },
+            {
+              "name": "events_url",
+              "type": "varchar"
+            },
+            {
+              "name": "received_events_url",
+              "type": "varchar"
+            },
+            {
+              "name": "type",
+              "type": "varchar"
+            },
+            {
+              "name": "site_admin",
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "name": "labels",
+          "type": "list",
+          "children": [
+            {
+              "name": "child",
+              "type": "struct",
+              "children": [
+                {
+                  "name": "id",
+                  "type": "bigint"
+                },
+                {
+                  "name": "node_id",
+                  "type": "varchar"
+                },
+                {
+                  "name": "url",
+                  "type": "varchar"
+                },
+                {
+                  "name": "name",
+                  "type": "varchar"
+                },
+                {
+                  "name": "color",
+                  "type": "varchar"
+                },
+                {
+                  "name": "default",
+                  "type": "boolean"
+                },
+                {
+                  "name": "description",
+                  "type": "varchar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "state",
+          "type": "varchar"
+        },
+        {
+          "name": "locked",
+          "type": "boolean"
+        },
+        {
+          "name": "assignee",
+          "type": "struct",
+          "children": [
+            {
+              "name": "login",
+              "type": "varchar"
+            },
+            {
+              "name": "id",
+              "type": "bigint"
+            },
+            {
+              "name": "node_id",
+              "type": "varchar"
+            },
+            {
+              "name": "avatar_url",
+              "type": "varchar"
+            },
+            {
+              "name": "gravatar_id",
+              "type": "varchar"
+            },
+            {
+              "name": "url",
+              "type": "varchar"
+            },
+            {
+              "name": "html_url",
+              "type": "varchar"
+            },
+            {
+              "name": "followers_url",
+              "type": "varchar"
+            },
+            {
+              "name": "following_url",
+              "type": "varchar"
+            },
+            {
+              "name": "gists_url",
+              "type": "varchar"
+            },
+            {
+              "name": "starred_url",
+              "type": "varchar"
+            },
+            {
+              "name": "subscriptions_url",
+              "type": "varchar"
+            },
+            {
+              "name": "organizations_url",
+              "type": "varchar"
+            },
+            {
+              "name": "repos_url",
+              "type": "varchar"
+            },
+            {
+              "name": "events_url",
+              "type": "varchar"
+            },
+            {
+              "name": "received_events_url",
+              "type": "varchar"
+            },
+            {
+              "name": "type",
+              "type": "varchar"
+            },
+            {
+              "name": "site_admin",
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "name": "assignees",
+          "type": "list",
+          "children": [
+            {
+              "name": "child",
+              "type": "struct",
+              "children": [
+                {
+                  "name": "login",
+                  "type": "varchar"
+                },
+                {
+                  "name": "id",
+                  "type": "bigint"
+                },
+                {
+                  "name": "node_id",
+                  "type": "varchar"
+                },
+                {
+                  "name": "avatar_url",
+                  "type": "varchar"
+                },
+                {
+                  "name": "gravatar_id",
+                  "type": "varchar"
+                },
+                {
+                  "name": "url",
+                  "type": "varchar"
+                },
+                {
+                  "name": "html_url",
+                  "type": "varchar"
+                },
+                {
+                  "name": "followers_url",
+                  "type": "varchar"
+                },
+                {
+                  "name": "following_url",
+                  "type": "varchar"
+                },
+                {
+                  "name": "gists_url",
+                  "type": "varchar"
+                },
+                {
+                  "name": "starred_url",
+                  "type": "varchar"
+                },
+                {
+                  "name": "subscriptions_url",
+                  "type": "varchar"
+                },
+                {
+                  "name": "organizations_url",
+                  "type": "varchar"
+                },
+                {
+                  "name": "repos_url",
+                  "type": "varchar"
+                },
+                {
+                  "name": "events_url",
+                  "type": "varchar"
+                },
+                {
+                  "name": "received_events_url",
+                  "type": "varchar"
+                },
+                {
+                  "name": "type",
+                  "type": "varchar"
+                },
+                {
+                  "name": "site_admin",
+                  "type": "boolean"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "milestone",
+          "type": "map",
+          "children": [
+            {
+              "name": "key",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "json"
+            }
+          ]
+        },
+        {
+          "name": "comments",
+          "type": "bigint"
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp"
+        },
+        {
+          "name": "updated_at",
+          "type": "timestamp"
+        },
+        {
+          "name": "closed_at",
+          "type": "timestamp"
+        },
+        {
+          "name": "author_association",
+          "type": "varchar"
+        },
+        {
+          "name": "active_lock_reason",
+          "type": "varchar"
+        },
+        {
+          "name": "body",
+          "type": "varchar"
+        },
+        {
+          "name": "reactions",
+          "type": "struct",
+          "children": [
+            {
+              "name": "url",
+              "type": "varchar"
+            },
+            {
+              "name": "total_count",
+              "type": "bigint"
+            },
+            {
+              "name": "+1",
+              "type": "bigint"
+            },
+            {
+              "name": "-1",
+              "type": "bigint"
+            },
+            {
+              "name": "laugh",
+              "type": "bigint"
+            },
+            {
+              "name": "hooray",
+              "type": "bigint"
+            },
+            {
+              "name": "confused",
+              "type": "bigint"
+            },
+            {
+              "name": "heart",
+              "type": "bigint"
+            },
+            {
+              "name": "rocket",
+              "type": "bigint"
+            },
+            {
+              "name": "eyes",
+              "type": "bigint"
+            }
+          ]
+        },
+        {
+          "name": "timeline_url",
+          "type": "varchar"
+        },
+        {
+          "name": "performed_via_github_app",
+          "type": "map",
+          "children": [
+            {
+              "name": "key",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "json"
+            }
+          ]
+        },
+        {
+          "name": "state_reason",
+          "type": "varchar"
+        },
+        {
+          "name": "draft",
+          "type": "boolean"
+        },
+        {
+          "name": "pull_request",
+          "type": "map",
+          "children": [
+            {
+              "name": "key",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "varchar"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
