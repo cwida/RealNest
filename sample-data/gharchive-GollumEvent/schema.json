@@ -1,1 +1,40 @@
-{"columns": [{"name": "pages", "type": "list", "children": [{"name": "child", "type": "struct", "children": [{"name": "page_name", "type": "varchar"}, {"name": "title", "type": "varchar"}, {"name": "summary", "type": "varchar"}, {"name": "action", "type": "varchar"}, {"name": "sha", "type": "varchar"}, {"name": "html_url", "type": "varchar"}]}]}]}
+{
+  "columns": [
+    {
+      "name": "pages",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "page_name",
+              "type": "varchar"
+            },
+            {
+              "name": "title",
+              "type": "varchar"
+            },
+            {
+              "name": "summary",
+              "type": "varchar"
+            },
+            {
+              "name": "action",
+              "type": "varchar"
+            },
+            {
+              "name": "sha",
+              "type": "varchar"
+            },
+            {
+              "name": "html_url",
+              "type": "varchar"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

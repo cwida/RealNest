@@ -46,7 +46,7 @@ def handle_json_dataset_common(table_dir: Path, jsons_path: Path):
     delete_folder(jsons_path)
 
     with open(table_dir / 'schema.json', 'w') as f:
-        json.dump(schema, f, default=lambda o: o.__dict__)
+        json.dump(schema, f, indent=2, default=lambda o: o.__dict__)
 
     print(f"Exported {rowcount} rows to {table_dir}")
 

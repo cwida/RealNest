@@ -1,1 +1,46 @@
-{"columns": [{"name": "commits", "type": "list", "children": [{"name": "child", "type": "struct", "children": [{"name": "sha", "type": "varchar"}, {"name": "author", "type": "struct", "children": [{"name": "email", "type": "varchar"}, {"name": "name", "type": "varchar"}]}, {"name": "message", "type": "varchar"}, {"name": "distinct", "type": "boolean"}, {"name": "url", "type": "varchar"}]}]}]}
+{
+  "columns": [
+    {
+      "name": "commits",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "sha",
+              "type": "varchar"
+            },
+            {
+              "name": "author",
+              "type": "struct",
+              "children": [
+                {
+                  "name": "email",
+                  "type": "varchar"
+                },
+                {
+                  "name": "name",
+                  "type": "varchar"
+                }
+              ]
+            },
+            {
+              "name": "message",
+              "type": "varchar"
+            },
+            {
+              "name": "distinct",
+              "type": "boolean"
+            },
+            {
+              "name": "url",
+              "type": "varchar"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
