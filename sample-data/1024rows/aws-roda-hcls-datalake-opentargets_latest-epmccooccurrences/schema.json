@@ -1,0 +1,48 @@
+{
+  "columns": [
+    {
+      "name": "anns",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "type",
+              "type": "varchar"
+            },
+            {
+              "name": "exact",
+              "type": "varchar"
+            },
+            {
+              "name": "section",
+              "type": "varchar"
+            },
+            {
+              "name": "tags",
+              "type": "list",
+              "children": [
+                {
+                  "name": "child",
+                  "type": "struct",
+                  "children": [
+                    {
+                      "name": "name",
+                      "type": "varchar"
+                    },
+                    {
+                      "name": "uri",
+                      "type": "varchar"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

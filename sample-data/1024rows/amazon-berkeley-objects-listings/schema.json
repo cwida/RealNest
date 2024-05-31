@@ -1,0 +1,506 @@
+{
+  "columns": [
+    {
+      "name": "brand",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "language_tag",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "varchar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bullet_point",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "language_tag",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "varchar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "color",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "language_tag",
+              "type": "varchar"
+            },
+            {
+              "name": "standardized_values",
+              "type": "list",
+              "children": [
+                {
+                  "name": "child",
+                  "type": "varchar"
+                }
+              ]
+            },
+            {
+              "name": "value",
+              "type": "varchar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "item_name",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "language_tag",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "varchar"
+            },
+            {
+              "name": "alternate_representations",
+              "type": "list",
+              "children": [
+                {
+                  "name": "child",
+                  "type": "struct",
+                  "children": [
+                    {
+                      "name": "type",
+                      "type": "varchar"
+                    },
+                    {
+                      "name": "value",
+                      "type": "varchar"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "item_weight",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "normalized_value",
+              "type": "struct",
+              "children": [
+                {
+                  "name": "unit",
+                  "type": "varchar"
+                },
+                {
+                  "name": "value",
+                  "type": "double"
+                }
+              ]
+            },
+            {
+              "name": "unit",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "double"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "material",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "language_tag",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "varchar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "model_name",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "language_tag",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "varchar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "model_number",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "value",
+              "type": "varchar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "product_type",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "value",
+              "type": "varchar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "other_image_id",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "varchar"
+        }
+      ]
+    },
+    {
+      "name": "item_keywords",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "language_tag",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "varchar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "node",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "node_id",
+              "type": "bigint"
+            },
+            {
+              "name": "node_name",
+              "type": "varchar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "model_year",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "value",
+              "type": "bigint"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "style",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "language_tag",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "varchar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "color_code",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "varchar"
+        }
+      ]
+    },
+    {
+      "name": "item_dimensions",
+      "type": "struct",
+      "children": [
+        {
+          "name": "height",
+          "type": "struct",
+          "children": [
+            {
+              "name": "normalized_value",
+              "type": "struct",
+              "children": [
+                {
+                  "name": "unit",
+                  "type": "varchar"
+                },
+                {
+                  "name": "value",
+                  "type": "double"
+                }
+              ]
+            },
+            {
+              "name": "unit",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "double"
+            }
+          ]
+        },
+        {
+          "name": "length",
+          "type": "struct",
+          "children": [
+            {
+              "name": "normalized_value",
+              "type": "struct",
+              "children": [
+                {
+                  "name": "unit",
+                  "type": "varchar"
+                },
+                {
+                  "name": "value",
+                  "type": "double"
+                }
+              ]
+            },
+            {
+              "name": "unit",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "double"
+            }
+          ]
+        },
+        {
+          "name": "width",
+          "type": "struct",
+          "children": [
+            {
+              "name": "normalized_value",
+              "type": "struct",
+              "children": [
+                {
+                  "name": "unit",
+                  "type": "varchar"
+                },
+                {
+                  "name": "value",
+                  "type": "double"
+                }
+              ]
+            },
+            {
+              "name": "unit",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "double"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pattern",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "language_tag",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "varchar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "item_shape",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "language_tag",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "varchar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fabric_type",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "language_tag",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "varchar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "product_description",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "language_tag",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "varchar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "finish_type",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "language_tag",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "varchar"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

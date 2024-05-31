@@ -1,0 +1,106 @@
+{
+  "columns": [
+    {
+      "name": "outputs",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "address",
+              "type": "varchar"
+            },
+            {
+              "name": "index",
+              "type": "bigint"
+            },
+            {
+              "name": "required_signatures",
+              "type": "bigint"
+            },
+            {
+              "name": "script_asm",
+              "type": "varchar"
+            },
+            {
+              "name": "script_hex",
+              "type": "varchar"
+            },
+            {
+              "name": "type",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "double"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "inputs",
+      "type": "list",
+      "children": [
+        {
+          "name": "child",
+          "type": "struct",
+          "children": [
+            {
+              "name": "address",
+              "type": "varchar"
+            },
+            {
+              "name": "index",
+              "type": "bigint"
+            },
+            {
+              "name": "required_signatures",
+              "type": "bigint"
+            },
+            {
+              "name": "script_asm",
+              "type": "varchar"
+            },
+            {
+              "name": "script_hex",
+              "type": "varchar"
+            },
+            {
+              "name": "sequence",
+              "type": "bigint"
+            },
+            {
+              "name": "spent_output_index",
+              "type": "bigint"
+            },
+            {
+              "name": "spent_transaction_hash",
+              "type": "varchar"
+            },
+            {
+              "name": "txinwitness",
+              "type": "list",
+              "children": [
+                {
+                  "name": "child",
+                  "type": "varchar"
+                }
+              ]
+            },
+            {
+              "name": "type",
+              "type": "varchar"
+            },
+            {
+              "name": "value",
+              "type": "double"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
