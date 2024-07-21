@@ -31,7 +31,7 @@ def main():
         datasets: dict[str, S3Dataset] = {dataset: S3Dataset(**json_dict[dataset]) for dataset in json_dict}
 
     create_empty_folder(TABLES_DIR)
-    s3 = boto3.client("s3", config=Config(signature_version=UNSIGNED))
+    s3 = boto3.client("s3", config=Config(signature_version=UNSIGNED), region_name='us-east-1')
     with ProcessPoolExecutor(max_workers=PROCESS_POOL_SIZE) as p:
         pool_results = [
             p.submit(download_cord_19),
