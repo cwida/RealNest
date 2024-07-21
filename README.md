@@ -17,7 +17,9 @@ mentioned above (the first 1024 rows and 100 MiB of each table) as a preview.
 Because we provide the script that downloads the original datasets and processes them into a common format, one can
 create the dataset from newer versions of the underlying data and also enlarge them with respect to the static datasets,
 since even the larger of the two statically downloadable datasets contains only a small part of each of the original
-data sources.
+data sources. Please note that the availability of the original datasets is outside our control, and over time, some of
+the original datasets may become unavailable. The download script will attempt to download the data from the sources,
+skipping the ones that are not available.
 
 Please refer to the [README](scripts/README.md) in the [scripts](scripts) directory for more details.
 

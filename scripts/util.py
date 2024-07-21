@@ -62,7 +62,7 @@ def download_file(url, file):
 
 def download_s3_file(bucket_name, key, file):
     print(f"Downloading s3://{bucket_name}/{key} to {file}")
-    s3 = boto3.client("s3", config=Config(signature_version=UNSIGNED))
+    s3 = boto3.client("s3", config=Config(signature_version=UNSIGNED), region_name='us-east-1')
     with open(file, 'wb') as data:
         s3.download_fileobj(bucket_name, key, data)
 
